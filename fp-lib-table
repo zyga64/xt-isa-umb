@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "xt-isa-umb")(type "KiCad")(uri "${KIPRJMOD}/xt-isa-umb.pretty")(options "")(descr ""))
+)
