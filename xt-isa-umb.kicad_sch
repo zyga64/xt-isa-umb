@@ -4529,12 +4529,6 @@
 		(uuid "37f733d3-a312-45da-ae9d-dcfd6500e5a3")
 	)
 	(junction
-		(at 119.38 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a982e4d-fc0f-4c73-8869-3f5436054276")
-	)
-	(junction
 		(at 66.04 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4553,12 +4547,6 @@
 		(uuid "815cb032-e733-4e3f-bbc0-f64b51ed9461")
 	)
 	(junction
-		(at 119.38 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cdf92a0-a85a-4418-b850-857775955d10")
-	)
-	(junction
 		(at 20.32 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4569,12 +4557,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7fc06b2-2c65-4442-96d9-e6bf6d5bcb8b")
-	)
-	(junction
-		(at 26.67 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b500acbf-f1bf-4138-9f68-88a1ea961547")
 	)
 	(junction
 		(at 133.35 109.22)
@@ -4623,6 +4605,126 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9b8fed2-1104-448a-9388-abc2b200f669")
+	)
+	(no_connect
+		(at 33.02 78.74)
+		(uuid "032285e4-3570-4293-b569-21c4a2eb30ae")
+	)
+	(no_connect
+		(at 33.02 38.1)
+		(uuid "08db1fc5-739e-482c-bcc3-18580da36545")
+	)
+	(no_connect
+		(at 33.02 71.12)
+		(uuid "1d38cc45-d820-45f1-985e-95f4d09cc062")
+	)
+	(no_connect
+		(at 33.02 60.96)
+		(uuid "1f4dd7a8-0a58-4f15-b10d-08f224fe9c1a")
+	)
+	(no_connect
+		(at 68.58 53.34)
+		(uuid "284bf722-43f4-4de7-b751-5f8809d9ed55")
+	)
+	(no_connect
+		(at 33.02 50.8)
+		(uuid "2adac6fb-361d-4e92-af86-98683f916e7e")
+	)
+	(no_connect
+		(at 33.02 81.28)
+		(uuid "2ca69679-df7d-4eac-a38b-73aaa48b5cac")
+	)
+	(no_connect
+		(at 33.02 40.64)
+		(uuid "3008aec2-2719-47cb-a50e-52c8b4f71bce")
+	)
+	(no_connect
+		(at 33.02 68.58)
+		(uuid "41a919dc-938f-4068-8af8-64af1155de42")
+	)
+	(no_connect
+		(at 33.02 93.98)
+		(uuid "44a74afc-44d7-4f2c-9b7e-d299410e0988")
+	)
+	(no_connect
+		(at 33.02 96.52)
+		(uuid "6576235e-1bde-4da2-887c-b4cd659da444")
+	)
+	(no_connect
+		(at 33.02 48.26)
+		(uuid "6a8271f2-9b46-45d9-ae97-84406a8000dd")
+	)
+	(no_connect
+		(at 238.76 115.57)
+		(uuid "6deb66f3-0938-4ee2-965b-d929dfd21943")
+	)
+	(no_connect
+		(at 33.02 73.66)
+		(uuid "735fe34c-b177-4d51-9b3f-f80f17933658")
+	)
+	(no_connect
+		(at 33.02 101.6)
+		(uuid "744e031d-2350-4bb0-b614-29abd7702eaf")
+	)
+	(no_connect
+		(at 33.02 63.5)
+		(uuid "76162ffb-7064-4817-80c2-b803897ff50c")
+	)
+	(no_connect
+		(at 209.55 106.68)
+		(uuid "82aa13df-e916-4834-81df-443652aae571")
+	)
+	(no_connect
+		(at 33.02 99.06)
+		(uuid "89b06b19-5735-4a15-957c-fa4d859e9392")
+	)
+	(no_connect
+		(at 33.02 45.72)
+		(uuid "9e92ee04-f6c6-4d0c-a7b9-41b18c533a3c")
+	)
+	(no_connect
+		(at 33.02 88.9)
+		(uuid "a0e93950-4517-4c14-8a7b-ee25fea043d2")
+	)
+	(no_connect
+		(at 33.02 104.14)
+		(uuid "a5d16418-3541-4e92-ad38-526cd5b88693")
+	)
+	(no_connect
+		(at 33.02 33.02)
+		(uuid "b3c88f95-dfb9-4c36-b6ad-f77e54454300")
+	)
+	(no_connect
+		(at 33.02 66.04)
+		(uuid "b5f180f6-7b36-4ce5-a146-56ff4f42b709")
+	)
+	(no_connect
+		(at 33.02 86.36)
+		(uuid "bb01c55e-c4f9-4d86-aea4-ccdc7d4b12a6")
+	)
+	(no_connect
+		(at 33.02 76.2)
+		(uuid "c38f7ce7-ea74-45a5-aaf8-86839bff7329")
+	)
+	(no_connect
+		(at 246.38 74.93)
+		(uuid "cb22a7f2-f897-4c5e-9ccd-2626fbbabba6")
+	)
+	(no_connect
+		(at 33.02 43.18)
+		(uuid "d89af89b-f185-4f08-8e37-cafc3f820be5")
+	)
+	(no_connect
+		(at 33.02 91.44)
+		(uuid "dc6de61a-2e61-4f15-b877-768d8c2d1d5e")
+	)
+	(no_connect
+		(at 204.47 140.97)
+		(uuid "dec50cc6-a6c6-4def-9278-370c39abded7")
+	)
+	(no_connect
+		(at 33.02 83.82)
+		(uuid "f8130a70-54db-4e16-a09b-71623cb7334f")
 	)
 	(bus_entry
 		(at 77.47 73.66)
@@ -5306,16 +5408,6 @@
 			(type default)
 		)
 		(uuid "0bb1a66c-9d69-4565-85cc-7a6c8b5356cd")
-	)
-	(wire
-		(pts
-			(xy 33.02 101.6) (xy 26.67 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1c2819-8e4c-4902-b49d-349959bf74d9")
 	)
 	(wire
 		(pts
@@ -6117,16 +6209,6 @@
 		)
 		(uuid "8b0eac55-013c-4e51-9361-e00c40db57a1")
 	)
-	(wire
-		(pts
-			(xy 119.38 184.15) (xy 132.08 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b8b3b9c-2705-4e2b-9c9b-290e12aef054")
-	)
 	(bus
 		(pts
 			(xy 80.01 99.06) (xy 80.01 101.6)
@@ -6489,16 +6571,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 101.6) (xy 26.67 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb6d8fff-ccf9-43f9-9ace-2c032dc3482a")
-	)
-	(wire
-		(pts
 			(xy 191.77 129.54) (xy 191.77 116.84)
 		)
 		(stroke
@@ -6509,7 +6581,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 176.53) (xy 119.38 176.53)
+			(xy 106.68 176.53) (xy 132.08 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6646,16 +6718,6 @@
 			(type default)
 		)
 		(uuid "cf4d2ccd-4b5d-461f-8bcd-27402db8c992")
-	)
-	(wire
-		(pts
-			(xy 119.38 176.53) (xy 132.08 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cff110b7-61e6-40a7-8f30-ca5475755eb4")
 	)
 	(wire
 		(pts
@@ -6859,7 +6921,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 184.15) (xy 119.38 184.15)
+			(xy 106.68 184.15) (xy 132.08 184.15)
 		)
 		(stroke
 			(width 0)
@@ -9643,76 +9705,6 @@
 			(project ""
 				(path "/35dd1e90-3905-4322-931d-7234df9aca70"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 119.38 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b910ab54-2a59-4fc8-9dfc-229207a5c6f4")
-		(property "Reference" "C5"
-			(at 123.19 178.1809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 123.19 180.7209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
-			(at 120.3452 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 119.38 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a50e074b-2c62-495a-91e0-55d68a00e23a")
-		)
-		(pin "1"
-			(uuid "ee6fa93c-494f-4d56-bbf7-cf45da04a8f0")
-		)
-		(instances
-			(project ""
-				(path "/35dd1e90-3905-4322-931d-7234df9aca70"
-					(reference "C5")
 					(unit 1)
 				)
 			)
