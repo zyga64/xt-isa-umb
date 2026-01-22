@@ -84,7 +84,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -115,9 +115,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(net 0 "")
@@ -4278,7 +4278,7 @@
 			(remove_unused_layers no)
 			(net 63 "unconnected-(U1-O7-Pad7)")
 			(pinfunction "O7")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "6c9a6aa4-60c0-47a4-8dec-6fa360f5ea07")
 		)
 		(pad "8" thru_hole circle
@@ -4322,7 +4322,7 @@
 			(remove_unused_layers no)
 			(net 64 "unconnected-(U1-O4-Pad11)")
 			(pinfunction "O4")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "70ba5651-cf00-42ec-b7dc-2b183ac8b25e")
 		)
 		(pad "12" thru_hole circle
@@ -4333,7 +4333,7 @@
 			(remove_unused_layers no)
 			(net 60 "unconnected-(U1-O3-Pad12)")
 			(pinfunction "O3")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "2396acdc-366d-4d53-ae68-e856eab05561")
 		)
 		(pad "13" thru_hole circle
@@ -4344,7 +4344,7 @@
 			(remove_unused_layers no)
 			(net 65 "unconnected-(U1-O2-Pad13)")
 			(pinfunction "O2")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "cdd98103-ad84-4978-9059-d43cc187f955")
 		)
 		(pad "14" thru_hole circle
@@ -4355,7 +4355,7 @@
 			(remove_unused_layers no)
 			(net 66 "unconnected-(U1-O1-Pad14)")
 			(pinfunction "O1")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "f6e769fb-143d-4b8a-b0d1-5272b79dfbce")
 		)
 		(pad "15" thru_hole circle
@@ -4366,7 +4366,7 @@
 			(remove_unused_layers no)
 			(net 61 "unconnected-(U1-O0-Pad15)")
 			(pinfunction "O0")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "27219962-a542-4303-9257-8c86548bccb4")
 		)
 		(pad "16" thru_hole circle
@@ -5213,7 +5213,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm*")
-		(path "/6ae6173c-5735-445c-8feb-2cf5592d21f9")
+		(path "/4a22f01b-1703-4810-96e1-1c3a210303ea")
 		(sheetname "/")
 		(sheetfile "xt-isa-umb.kicad_sch")
 		(attr through_hole)
@@ -5408,7 +5408,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 78 "unconnected-(U2-Pad6)")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "b646bc56-01e6-49b3-a76d-1e793701ac3b")
 		)
 		(pad "7" thru_hole circle
@@ -5459,7 +5459,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 77 "unconnected-(U2-Pad11)")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "26df59b8-0ab6-4d13-a099-e901bfcd8010")
 		)
 		(pad "12" thru_hole circle
@@ -5633,7 +5633,7 @@
 		(uuid "e39b2a09-faec-4dc9-b777-297246e80936")
 	)
 	(gr_text " JP1:  64kB (D0000 - DFFFF)\n JP2:  64kB (E0000 - EFFFF)\nBOTH: 128kB (D0000 - EFFFF)\nNONE:   0kB"
-		(at 147.066 129.54 0)
+		(at 142.621 131.445 0)
 		(layer "F.SilkS")
 		(uuid "0cb2cb3a-a53a-4885-a659-dc876f691ecf")
 		(effects
@@ -5707,6 +5707,18 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "https://github.com/zyga64/xt-isa-umb"
+		(at 119.888 134.62 0)
+		(layer "B.SilkS")
+		(uuid "4aeaf3b9-865d-45ae-b8d9-9008975686a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
@@ -5836,6 +5848,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 3)
 		(uuid "1a2d2f41-6275-40e1-b3d3-e485ca22a42e")
+	)
+	(via
+		(at 172.847 122.682)
+		(size 1)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(net 3)
+		(uuid "1f2aad37-bb07-466a-ac27-054f9a6e1857")
 	)
 	(via
 		(at 90.17 128.524)
@@ -5990,6 +6010,22 @@
 		(uuid "504219db-b358-4ae9-81fb-126f78e854c7")
 	)
 	(via
+		(at 170.307 122.682)
+		(size 1)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(net 3)
+		(uuid "57b3940c-6b3a-432c-a723-20de5d0fc1ac")
+	)
+	(via
+		(at 172.847 125.222)
+		(size 1)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(net 3)
+		(uuid "5b974e14-28c1-49c9-9818-313e20849b6d")
+	)
+	(via
 		(at 137.922 102.108)
 		(size 1)
 		(drill 0.5)
@@ -6060,6 +6096,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 3)
 		(uuid "805829f4-8012-4615-9982-22220af8c224")
+	)
+	(via
+		(at 170.307 125.222)
+		(size 1)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(net 3)
+		(uuid "822ed672-f964-48d3-8d33-724df5a9daf1")
 	)
 	(via
 		(at 167.64 104.902)
@@ -6540,14 +6584,6 @@
 		(layer "B.Cu")
 		(net 7)
 		(uuid "8008327a-ab38-46ee-bbb1-b082f21d40ba")
-	)
-	(segment
-		(start 152.4 120.65)
-		(end 152.4 126.492001)
-		(width 0.254)
-		(layer "B.Cu")
-		(net 7)
-		(uuid "9074d4b0-7769-4ad5-a4ef-a9dee52fd795")
 	)
 	(segment
 		(start 152.019 120.523)
